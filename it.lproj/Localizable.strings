@@ -1,0 +1,147 @@
+/* ProfileViewController - Titoli Sezioni Impostazioni */
+"settings.theme" = "Tema";
+"settings.storage" = "Archiviazione";
+"settings.notifications" = "Notifiche";
+"settings.interface" = "Interfaccia";
+"settings.data" = "Dati";
+"settings.language" = "Lingua";
+
+/* ProfileViewController - Opzioni Impostazioni */
+"settings.theme.select" = "Seleziona Tema";
+"settings.language.select" = "Lingua";
+"settings.storageMethod" = "Metodo di Archiviazione";
+"settings.storage.current" = "Attuale: %@";
+"settings.notifications.taskReminders" = "Promemoria Attività";
+"settings.interface.animations" = "Animazioni";
+"settings.clearAllData" = "Cancella Tutti i Dati";
+
+/* Opzioni Lingua */
+"language.footer" = "Le modifiche alla lingua avranno effetto immediato.";
+"settings.language.system" = "Predefinita di Sistema";
+"settings.language.english" = "English";
+"settings.language.italian" = "Italiano";
+
+/* ProfileViewController - Placeholder */
+"profile.firstName.placeholder" = "Inserisci Nome";
+"profile.lastName.placeholder" = "Inserisci Cognome";
+
+/* ProfileViewController - Alert */
+"profile.imageSource.title" = "";
+"profile.imageSource.gallery" = "Galleria Foto";
+"profile.imageSource.camera" = "Fotocamera";
+"profile.imageSource.cancel" = "Annulla";
+
+/* Comuni */
+"common.ok" = "OK";
+"common.cancel" = "Annulla";
+"common.unavailable" = "Non Disponibile";
+
+/* Home - Attività */
+"task.empty.placeholder" = "Attività %@ - Tocca + per aggiungere la prima attività";
+
+"profile.theme.unavailable.title" = "Non Disponibile";
+"settings.theme.unavailable" = "La selezione del tema è disponibile su iOS 13 e versioni successive.";
+
+"settings.clearAllData.confirm.title" = "Cancella Tutti i Dati";
+"settings.clearAllData.confirm.message" = "Questo eliminerà permanentemente tutte le attività, i compiti e le impostazioni. Questa azione non può essere annullata. Sei sicuro?";
+"settings.clearAllData.delete" = "Elimina Tutto";
+"settings.clearAllData.success.title" = "Completato";
+"settings.clearAllData.success.message" = "Tutti i dati sono stati cancellati. Riavvia l'app.";
+
+/* StorageMethodViewController */
+"storage.title" = "Metodo di Archiviazione";
+"storage.userDefaults.name" = "UserDefaults";
+"storage.userDefaults.description" = "Archiviazione chiave-valore veloce e semplice";
+"storage.coreData.name" = "Core Data";
+"storage.coreData.description" = "Framework per oggetti di Apple";
+"storage.swiftData.name" = "SwiftData";
+"storage.swiftData.description" = "Framework dati dichiarativo moderno";
+"storage.comingSoon" = "Prossimamente";
+
+"storage.changeMethod.title" = "Cambia Metodo di Archiviazione";
+"storage.changeMethod.message" = "Questo migrerà tutti i tuoi dati a %@. L'app dovrà essere riavviata dopo la migrazione. Vuoi continuare?";
+"storage.migrate" = "Migra e Riavvia";
+
+"storage.migrating.title" = "Migrazione Dati in Corso";
+"storage.migrating.message" = "Attendere prego...";
+
+"storage.success.title" = "Migrazione Completata";
+"storage.success.message" = "Dati migrati su %@. L'app verrà ora riavviata.";
+"storage.success.ok" = "OK";
+
+"storage.error.title" = "Migrazione Fallita";
+"storage.error.message" = "Si è verificato un errore durante la migrazione dei dati. I tuoi dati originali sono al sicuro e invariati.";
+
+"storage.unavailable.title" = "%@ - Prossimamente";
+"storage.unavailable.message" = "Questo metodo di archiviazione arriverà in un aggiornamento futuro.\n\nCompatibilità attuale:\n• Swift 5.0 (richiede 5.9+)\n• iOS 12.0 (richiede 17.0+)";
+"storage.unavailable.ok" = "OK";
+
+"storage.footer" = "Scegli come Plany archivia i tuoi dati. La migrazione è automatica e sicura.";
+
+/* CalendarViewController - Compiti */
+"homework.title.placeholder" = "Inserisci Titolo";
+"homework.date.select" = "Seleziona Data";
+"homework.time.select" = "Seleziona Ora";
+"homework.error.title" = "Ehi Amico";
+"homework.error.empty.message" = "Compila tutti i campi";
+"homework.error.cancel" = "Annulla";
+
+/* Alert - Modifica Compiti */
+"alert.edit.title" = "Modifica Attività";
+"alert.edit.message" = "Modifica i dettagli dell'attività";
+"alert.edit.cancel" = "Annulla";
+"alert.edit.ok" = "OK";
+"alert.edit.changeDate" = "Cambia Data";
+"alert.edit.titlePlaceholder" = "Inserisci Nuovo Titolo";
+"alert.edit.textPlaceholder" = "Inserisci Nuovo Testo";
+"alert.edit.datePlaceholder" = "Data";
+
+/* CollectionView - Azioni Compiti */
+"homework.action.edit" = "Modifica";
+"homework.action.duplicate" = "Duplica";
+"homework.action.remove" = "Rimuovi";
+"homework.action.dismiss" = "Chiudi";
+"homework.default.title" = "Compito %d";
+
+/* TableView - Sezioni Attività */
+"task.section.todo" = "Da Fare";
+"task.section.done" = "Completate";
+"task.action.add" = "Crea";
+"task.action.edit" = "Modifica";
+
+/* TableView - Azioni Attività */
+"task.action.delete" = "Elimina";
+"task.action.pushBack" = "Ripristina";
+"task.action.share" = "Condividi";
+
+/* Generale - Navigazione */
+"navigation.calendar" = "Calendario";
+"navigation.settings" = "Impostazioni";
+"navigation.theme" = "Tema";
+"navigation.language" = "Lingua";
+"navigation.storage" = "Archiviazione";
+
+/* Generale - Modalità Modifica */
+"edit.mode.done" = "Fine";
+"edit.mode.edit" = "Modifica";
+
+/* Profilo - Etichette */
+"profile.label.name" = "Nome:";
+"profile.label.surname" = "Cognome:";
+
+/* Profilo - Testi Predefiniti */
+"profile.welcome.default" = "Ciao \nNome Cognome";
+"profile.default.name" = "Nome Cognome";
+"profile.guest" = "Ciao\nOspite";
+
+/* Home - Intestazioni Sezioni */
+"home.homework" = "Compiti";
+"home.tasks" = "Attività";
+
+/* Impostazioni - Tema */
+"theme.title" = "Tema";
+"theme.header" = "Seleziona il tema dell'app";
+"theme.footer" = "Il tema 'Sistema' seguirà automaticamente le impostazioni del tuo dispositivo.";
+"theme.light" = "Chiaro";
+"theme.dark" = "Scuro";
+"theme.system" = "Sistema";

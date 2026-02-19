@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Calendar View Controller-->
+        <scene sceneID="yTG-6p-wuZ">
+            <objects>
+                <viewController storyboardIdentifier="peppe2" id="mVP-8B-OP5" customClass="CalendarViewController" customModule="Plany" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dba-5j-DzV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aD4-Bh-OEp">
+                                <rect key="frame" x="20" y="480" width="32" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gdl-Fi-dFG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="TextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Pb-i6-BFK">
+                                <rect key="frame" x="20" y="509" width="353" height="128"/>
+                                <color key="backgroundColor" name="CardBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="r8v-ho-Urp"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbs-x3-qrx">
+                                <rect key="frame" x="20" y="395" width="38" height="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="TextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="EDl-1b-Q4R">
+                                <rect key="frame" x="20" y="226" width="353" height="161"/>
+                                <color key="backgroundColor" name="CardBackgroundColor"/>
+                                <color key="tintColor" name="PrimaryColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="161" id="Sde-RQ-taI"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="datePickerChanged:" destination="mVP-8B-OP5" eventType="valueChanged" id="pca-He-xua"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fj-02-IIr">
+                                <rect key="frame" x="22" y="189" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="TextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VgI-GB-DcM">
+                                <rect key="frame" x="20" y="417" width="353" height="34"/>
+                                <color key="backgroundColor" name="CardBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="NgR-Vc-8XV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXq-rp-uBj">
+                                <rect key="frame" x="137" y="189" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="SH4-No-zeC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="TextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jJr-oD-ZQI"/>
+                        <constraints>
+                            <constraint firstItem="EDl-1b-Q4R" firstAttribute="trailing" secondItem="8Pb-i6-BFK" secondAttribute="trailing" id="1YK-tL-Ntf"/>
+                            <constraint firstItem="EDl-1b-Q4R" firstAttribute="leading" secondItem="sbs-x3-qrx" secondAttribute="leading" id="3wD-ic-8Kc"/>
+                            <constraint firstItem="EDl-1b-Q4R" firstAttribute="leading" secondItem="8Pb-i6-BFK" secondAttribute="leading" id="3zf-hk-a8l"/>
+                            <constraint firstItem="jJr-oD-ZQI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sbs-x3-qrx" secondAttribute="trailing" symbolic="YES" id="5Sk-PS-CC7"/>
+                            <constraint firstItem="EDl-1b-Q4R" firstAttribute="top" secondItem="dXq-rp-uBj" secondAttribute="bottom" constant="16" id="6b6-RS-BvG"/>
+                            <constraint firstItem="8Pb-i6-BFK" firstAttribute="top" secondItem="aD4-Bh-OEp" secondAttribute="bottom" constant="8" symbolic="YES" id="8cp-kw-Pqd"/>
+                            <constraint firstItem="jJr-oD-ZQI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dXq-rp-uBj" secondAttribute="trailing" symbolic="YES" id="B1k-cQ-MQB"/>
+                            <constraint firstItem="VgI-GB-DcM" firstAttribute="top" secondItem="sbs-x3-qrx" secondAttribute="bottom" constant="8" symbolic="YES" id="DdJ-dP-gfA"/>
+                            <constraint firstItem="sbs-x3-qrx" firstAttribute="top" secondItem="EDl-1b-Q4R" secondAttribute="bottom" constant="8" symbolic="YES" id="Hyc-ro-92e"/>
+                            <constraint firstItem="VgI-GB-DcM" firstAttribute="leading" secondItem="jJr-oD-ZQI" secondAttribute="leading" constant="20" id="N1U-S3-ilO"/>
+                            <constraint firstItem="aD4-Bh-OEp" firstAttribute="leading" secondItem="jJr-oD-ZQI" secondAttribute="leading" constant="20" id="Re4-zp-wk2"/>
+                            <constraint firstItem="EDl-1b-Q4R" firstAttribute="leading" secondItem="aD4-Bh-OEp" secondAttribute="leading" id="UDS-9F-E3p"/>
+                            <constraint firstItem="EDl-1b-Q4R" firstAttribute="trailing" secondItem="dba-5j-DzV" secondAttribute="trailingMargin" id="Uhu-dN-CtV"/>
+                            <constraint firstItem="sbs-x3-qrx" firstAttribute="leading" secondItem="jJr-oD-ZQI" secondAttribute="leading" constant="20" id="WIm-0Y-s8L"/>
+                            <constraint firstItem="jJr-oD-ZQI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aD4-Bh-OEp" secondAttribute="trailing" symbolic="YES" id="aap-p9-RrF"/>
+                            <constraint firstItem="jJr-oD-ZQI" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0Fj-02-IIr" secondAttribute="trailing" symbolic="YES" id="bHu-un-xyF"/>
+                            <constraint firstItem="jJr-oD-ZQI" firstAttribute="trailing" secondItem="VgI-GB-DcM" secondAttribute="trailing" constant="20" id="d5B-RD-CmZ"/>
+                            <constraint firstItem="8Pb-i6-BFK" firstAttribute="leading" secondItem="jJr-oD-ZQI" secondAttribute="leading" constant="20" id="dGt-yU-nXA"/>
+                            <constraint firstItem="0Fj-02-IIr" firstAttribute="top" secondItem="jJr-oD-ZQI" secondAttribute="top" constant="71" id="fT4-Im-Nrz"/>
+                            <constraint firstItem="dXq-rp-uBj" firstAttribute="leading" secondItem="0Fj-02-IIr" secondAttribute="trailing" constant="73" id="n4w-RB-CjB"/>
+                            <constraint firstItem="0Fj-02-IIr" firstAttribute="leading" secondItem="jJr-oD-ZQI" secondAttribute="leading" constant="22" id="odw-hq-czK"/>
+                            <constraint firstItem="EDl-1b-Q4R" firstAttribute="top" secondItem="0Fj-02-IIr" secondAttribute="bottom" constant="16" id="swU-a3-XAz"/>
+                            <constraint firstItem="EDl-1b-Q4R" firstAttribute="leading" secondItem="dba-5j-DzV" secondAttribute="leadingMargin" id="taA-MU-WOz"/>
+                            <constraint firstItem="jJr-oD-ZQI" firstAttribute="trailing" secondItem="8Pb-i6-BFK" secondAttribute="trailing" constant="20" id="uNm-fP-TAv"/>
+                            <constraint firstItem="dXq-rp-uBj" firstAttribute="top" secondItem="jJr-oD-ZQI" secondAttribute="top" constant="71" id="xby-gs-Axj"/>
+                            <constraint firstItem="VgI-GB-DcM" firstAttribute="top" secondItem="EDl-1b-Q4R" secondAttribute="bottom" constant="30" id="y7k-5A-Zxa"/>
+                            <constraint firstItem="aD4-Bh-OEp" firstAttribute="top" secondItem="VgI-GB-DcM" secondAttribute="bottom" constant="29" id="zBl-cM-D0N"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="VEX-de-FwQ"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="0Fj-02-IIr" id="uku-ub-b6L"/>
+                        <outlet property="datePicker" destination="EDl-1b-Q4R" id="044-x7-daf"/>
+                        <outlet property="tagTextField" destination="8Pb-i6-BFK" id="fav-SR-aoo"/>
+                        <outlet property="timeLabel" destination="dXq-rp-uBj" id="L45-vh-ms4"/>
+                        <outlet property="titleTextView" destination="VgI-GB-DcM" id="jhd-Sj-ubT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0AR-8d-X9T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1204" y="479"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="BackgroundColor">
+            <color red="0.95000000000000007" green="0.95000000000000007" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CardBackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PrimaryColor">
+            <color red="0" green="0.53300000000000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextColor">
+            <color red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

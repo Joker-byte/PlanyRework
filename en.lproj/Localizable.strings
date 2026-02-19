@@ -1,0 +1,147 @@
+/* ProfileViewController - Settings Section Titles */
+"settings.theme" = "Theme";
+"settings.storage" = "Storage";
+"settings.notifications" = "Notifications";
+"settings.interface" = "Interface";
+"settings.data" = "Data";
+"settings.language" = "Language";
+
+/* ProfileViewController - Settings Options */
+"settings.theme.select" = "Select Theme";
+"settings.language.select" = "Language";
+"settings.storageMethod" = "Storage Method";
+"settings.storage.current" = "Current: %@";
+"settings.notifications.taskReminders" = "Task Reminders";
+"settings.interface.animations" = "Animations";
+"settings.clearAllData" = "Clear All Data";
+
+/* Language Options */
+"language.footer" = "Changes to the language will take effect immediately.";
+"settings.language.system" = "System Default";
+"settings.language.english" = "English";
+"settings.language.italian" = "Italiano";
+
+/* ProfileViewController - Placeholders */
+"profile.firstName.placeholder" = "Insert Name";
+"profile.lastName.placeholder" = "Insert Surname";
+
+/* ProfileViewController - Alerts */
+"profile.imageSource.title" = "";
+"profile.imageSource.gallery" = "Photo Gallery";
+"profile.imageSource.camera" = "Camera";
+"profile.imageSource.cancel" = "Cancel";
+
+/* Common */
+"common.ok" = "OK";
+"common.cancel" = "Cancel";
+"common.unavailable" = "Unavailable";
+
+/* Home - Tasks */
+"task.empty.placeholder" = "Task %@ - Tap + to add your first task";
+
+"profile.theme.unavailable.title" = "Unavailable";
+"settings.theme.unavailable" = "Theme selection is available on iOS 13 and later.";
+
+"settings.clearAllData.confirm.title" = "Clear All Data";
+"settings.clearAllData.confirm.message" = "This will permanently delete all tasks, homework, and settings. This action cannot be undone. Are you sure?";
+"settings.clearAllData.delete" = "Delete All";
+"settings.clearAllData.success.title" = "Success";
+"settings.clearAllData.success.message" = "All data has been cleared. Please restart the app.";
+
+/* StorageMethodViewController */
+"storage.title" = "Storage Method";
+"storage.userDefaults.name" = "UserDefaults";
+"storage.userDefaults.description" = "Fast and simple key-value storage";
+"storage.coreData.name" = "Core Data";
+"storage.coreData.description" = "Apple's object graph framework";
+"storage.swiftData.name" = "SwiftData";
+"storage.swiftData.description" = "Modern declarative data framework";
+"storage.comingSoon" = "Coming Soon";
+
+"storage.changeMethod.title" = "Change Storage Method";
+"storage.changeMethod.message" = "This will migrate all your data to %@. The app will need to restart after migration. Do you want to continue?";
+"storage.migrate" = "Migrate & Restart";
+
+"storage.migrating.title" = "Migrating Data";
+"storage.migrating.message" = "Please wait...";
+
+"storage.success.title" = "Migration Successful";
+"storage.success.message" = "Data migrated to %@. The app will now restart.";
+"storage.success.ok" = "OK";
+
+"storage.error.title" = "Migration Failed";
+"storage.error.message" = "There was an error migrating your data. Your original data is safe and unchanged.";
+
+"storage.unavailable.title" = "%@ - Coming Soon";
+"storage.unavailable.message" = "This storage method is coming in a future update.\n\nCurrent compatibility:\n• Swift 5.0 (requires 5.9+)\n• iOS 12.0 (requires 17.0+)";
+"storage.unavailable.ok" = "OK";
+
+"storage.footer" = "Choose how Plany stores your data. Migration is automatic and safe.";
+
+/* CalendarViewController - Homework */
+"homework.title.placeholder" = "Insert Title";
+"homework.date.select" = "Select Date";
+"homework.time.select" = "Select Time";
+"homework.error.title" = "Hey Dude";
+"homework.error.empty.message" = "Please fill in all fields";
+"homework.error.cancel" = "Cancel";
+
+/* Alert - Edit Homework */
+"alert.edit.title" = "Edit Task";
+"alert.edit.message" = "Modify the task details";
+"alert.edit.cancel" = "Cancel";
+"alert.edit.ok" = "OK";
+"alert.edit.changeDate" = "Change Date";
+"alert.edit.titlePlaceholder" = "Insert New Title";
+"alert.edit.textPlaceholder" = "Insert New Text";
+"alert.edit.datePlaceholder" = "Date";
+
+/* CollectionView - Homework Actions */
+"homework.action.edit" = "Edit";
+"homework.action.duplicate" = "Duplicate";
+"homework.action.remove" = "Remove";
+"homework.action.dismiss" = "Dismiss";
+"homework.default.title" = "Homework %d";
+
+/* TableView - Task Sections */
+"task.section.todo" = "To Do";
+"task.section.done" = "Done";
+"task.action.add" = "Add";
+"task.action.edit" = "Edit";
+
+/* TableView - Task Actions */
+"task.action.delete" = "Delete";
+"task.action.pushBack" = "Push Back";
+"task.action.share" = "Share";
+
+/* General - Navigation */
+"navigation.calendar" = "Calendar";
+"navigation.settings" = "Settings";
+"navigation.theme" = "Theme";
+"navigation.language" = "Language";
+"navigation.storage" = "Storage";
+
+/* General - Edit Mode */
+"edit.mode.done" = "Done";
+"edit.mode.edit" = "Edit";
+
+/* Profile - Labels */
+"profile.label.name" = "Name:";
+"profile.label.surname" = "Surname:";
+
+/* Profile - Default Text */
+"profile.welcome.default" = "Hello \nName Surname";
+"profile.default.name" = "Name Surname";
+"profile.guest" = "Hello\nGuest";
+
+/* Home - Section Headers */
+"home.homework" = "Homework";
+"home.tasks" = "Tasks";
+
+/* Settings - Theme */
+"theme.title" = "Theme";
+"theme.header" = "Select App Theme";
+"theme.footer" = "The 'System' theme will automatically follow your device settings.";
+"theme.light" = "Light";
+"theme.dark" = "Dark";
+"theme.system" = "System";
